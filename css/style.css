@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:#f8f8f8;
+    color: #222;
+    line-height: 1.5;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.bild {
+    width: 250px;
+    height: 190px;
+    margin-left: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 0px 0px 0px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #666;
+}
+
+hr {
+    margin: 35px 10px 0px;
+    color: #666;
+}
+
+a{
+    color:#222;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    gap: 20px;
+}
+
+.info-box {
+    text-align: center;
+    background: #e5edf5;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.topic {
+    background: #e1f5e3;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-right: 68%;
+    margin-top: 30px;
+}
+
+.content{
+    background: #f6e4ca;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-top: 30px;
+}
+.artenschutz {
+    margin-top: 30px;
+    background: #e1f5e3;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.artenschutz ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.footer {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer div {
+    width: 100%;
+}
