@@ -103,3 +103,33 @@ a{
 .footer div {
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    header {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .bild {
+        margin: 0 auto;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .topic {
+        margin-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+}
