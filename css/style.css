@@ -20,10 +20,10 @@ header {
     margin-left: 15px;
     border: 2px solid #ccc;
     border-radius: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fafafa;
+    background-image: url('../images/Panda.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -74,6 +74,7 @@ a{
 }
 
 .content{
+    display: flex;
     background: #f6e4ca;
     padding: 15px;
     border-radius: 6px;
