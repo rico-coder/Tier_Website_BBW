@@ -53,7 +53,7 @@ a{
 
 .info-grid {
     display: grid;
-    grid-template-columns: 450px 450px 450px;
+    grid-template-columns: 335px 335px 335px 335px;
     gap: 20px;
 }
 
@@ -79,7 +79,15 @@ a{
     padding: 15px;
     border-radius: 6px;
     margin-top: 20px;
-    margin-top: 30px;
+}
+
+.mapbg{
+    display: flex;
+    background: #f6e4ca;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-right: 750px;
 }
 .artenschutz {
     margin-top: 30px;
